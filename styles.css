@@ -1,0 +1,183 @@
+body{
+    
+    font-family: 'Inter';
+}
+
+.logo {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+header{
+    padding: 20px 0;
+    margin-bottom: 100px;
+    padding: 0 200px;
+}
+section{
+    margin-bottom: 150px;
+    padding: 0 200px;
+}
+.navigation-list{
+    list-style: none;
+    padding: 0; 
+    display: flex;
+    
+}
+
+.navigation-link{
+    text-decoration: none;
+    font-size: 21px;
+    padding: 10px;
+    color: #33383F;
+    margin: 0 13px;
+}
+
+.header-buttons {
+    margin-left:auto;
+    display: flex;
+    align-items: center;
+}
+
+.sign-in-button{
+    color: #0070A0;
+    border: 0px;
+    padding: 5px;
+    background-color: white;
+    margin-right: 30px; 
+    font-size: 21px;
+    font-family: 'Inter';
+}
+
+.demo-button{
+    color: white;
+    padding: 15px 25px;
+    background-color: #0070A0;
+    border: 0px;
+    font-size: 21px;
+    font-family: 'Inter';
+    width: 210px;
+    font-weight: 300;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.about-section{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 150px;
+    align-items: center;
+
+}
+
+.about__title{
+    font-family: 'Fraunces';
+    color: #1F1F1F;
+    font-size: 75px;
+    font-weight: 500;
+    margin: 0;
+    width: 90%;
+}
+
+.about-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about__description{
+    width: 70%;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.learn-more-button {
+    color: #0070A0;
+    text-decoration: none;
+    font-size: 21px;
+    margin-left: 20px;
+    padding: 10px 15px;
+}
+
+.truster-by-section p
+{
+    color:#1F1F1F;
+    font-size: 32px;
+    justify-self: center;
+    margin-bottom: 50px;
+}
+
+.companies-list {
+    padding:0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+.company img {
+    width: 120%
+}
+
+.benefits-list{
+    padding:0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.benefit-fast{
+    background-color: #FAEA73;
+}
+.benefit-money{
+     background-color: #CCEFF6;
+}
+.benefit-safe{
+    background-color: #F7CEDC;
+}
+
+.benefit-item {
+    padding: 40px;
+}
+
+.benefit-item h3 {
+    font-family: 'Fraunces';
+    font-size: 33px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.benefit-item p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.quality-section {
+    background-color: #F7F9FA;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url('fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+}
