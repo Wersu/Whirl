@@ -1,103 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Whirl</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" href="images/Whirl_logo.svg">
-    </head>
-    <body>
-        <header>
-            <nav class="navigation">
-                <a class="logo" href="#">
-                    <img src="images/Whirl_logo_with_label.svg" alt="logo" width="135">
-                </a>
-                <ul class="navigation-list">
-                    <li class="navigation-item">
-                        <a class="navigation-link" href="#">Features</a>
+
+<head>
+    <meta charset="utf-8">
+    <title>Whirl</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/Whirl_logo.svg">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__navigation">
+            <a class="logo header_logo" href="#">
+                <img class="logo__img" src="images/Whirl_logo_with_label.svg" alt="logo" width="135">
+            </a>
+            <ul class="navigation-list menu">
+                <li class="navigation__item">
+                    <a class="navigation__item__link" href="#">Features</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__item__link" href="#">Pricing</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__item__link" href="#">Integrations</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__item__link" href="#">Learn</a>
+                </li>
+            </ul>
+            <div class="header__buttons">
+                <button class="button button-sign-in text" type="button">Sign in</button>
+                <button class="button button-demo text" type="button">Book a demo</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section class="section section-about">
+                <div class="about__text">
+                    <h2 class="title about__title">Your everyday tasks, automated.</h2>
+                    <p class="text about__description">Whirl lets you design and streamline your everyday tasks and workflows
+                        in just a few clicks.</p>
+                    <button class="button button-demo" type="button">Book a demo</button>
+                    <a class="button button-learn-more" href="#">Learn more ></a>
+                </div>
+                <img class="about__img full-img" src="images/task_board.png" alt="Your everyday tasks, automated.">
+            </section>
+            <section class="section section-truster-by">
+                <p class="text section-truster-by__paragraph">Trusted by 50,000+ companies</p>
+                <ul class="menu companies-list">
+                    <li class="companies-list__item">
+                        <img class="companies-list__item__img" src="images/focusfox_logo.svg" alt="focusfox_logo">
                     </li>
-                    <li class="navigation-item">
-                        <a class="navigation-link" href="#">Pricing</a>
+                    <li class="companies-list__item">
+                        <img class="companies-list__item__img" src="images/NowInTech_logo.svg" alt="NowInTech_logo">
                     </li>
-                    <li class="navigation-item">
-                        <a class="navigation-link" href="#">Integrations</a>
+                    <li class="companies-list__item">
+                        <img class="companies-list__item__img" src="images/Optimer_logo.svg" alt="Optimer_logo.png">
                     </li>
-                    <li class="navigation-item">
-                        <a class="navigation-link" href="#">Learn</a>
+                    <li class="companies-list__item">
+                        <img class="companies-list__item__img" src="images/Carded_logo.svg" alt="Carded_logo">
                     </li>
                 </ul>
-                <div class="header-buttons">
-                    <button class="sign-in-button" type="button">Sign in</button>
-                    <button class="demo-button" type="button">Book a demo</button>
-                </div>
-            </nav>
-          </header>
-          <main>
-            <article>
-              <section class="about-section">
-                <div class="about-text">
-                    <h2 class="about__title">Your everyday tasks, automated.</h2>
-                    <p class="about__description">Whirl lets you design and streamline your everyday tasks and workflows in just a few clicks.</p>
-                    <button class="demo-button" type="button">Book a demo</button>
-                    <a class="learn-more-button" href="#">Learn more ></a>
-                </div>
-                <img class="about-img" src="images/task_board.png" alt="Your everyday tasks, automated.">
-              </section>
-              <section class="truster-by-section">
-                    <p>Trusted by 50,000+ companies</p>
-                    <ul class="companies-list">
-                        <li class="company">
-                            <img src="images/focusfox_logo.svg" alt="focusfox_logo">
-                        </li>
-                        <li class="company">
-                            <img src="images/NowInTech_logo.svg" alt="NowInTech_logo">
-                        </li>
-                        <li class="company">
-                            <img src="images/Optimer_logo.svg" alt="Optimer_logo.png">
-                        </li>
-                        <li class="company">
-                            <img src="images/Carded_logo.svg" alt="Carded_logo">
-                        </li>
-                    </ul>
-              </section>
-              <section class="benefits-section">
-                <ul class="benefits-list">
-                    <li class="benefit-item benefit-fast">
+            </section>
+            <section class="section section-benefits">
+                <ul class="menu benefits-list">
+                    <li class="benefit__item benefit__item-fast">
                         <img src="images/lightning_icon.svg" alt="benefit-fast" width="64">
-                        <h3>Fast. Really fast.</h3>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <h3 class="title benefits__title">Fast. Really fast.</h3>
+                        <p class="text benefits__description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat.</p>
                     </li>
-                    <li class="benefit-item benefit-money">
+                    <li class="benefit__item benefit__item-money">
                         <img src="images/money_icon.svg" alt="benefit-money" width="64">
-                        <h3>More bang for buck.</h3>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <h3 class="title benefits__title">More bang for buck.</h3>
+                        <p class="text benefits__description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat.</p>
                     </li>
-                    <li class="benefit-item benefit-safe">
+                    <li class="benefit__item benefit__item-safe">
                         <img src="images/okey_hand_icon.svg" alt="benefit-safe" width="64">
-                        <h3>Safe and secure.</h3>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <h3 class="title benefits__title">Safe and secure.</h3>
+                        <p class="text benefits__description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat.</p>
                     </li>
                 </ul>
-              </section>
-              <section class="quality-section">
-                
-              </section>
-              <section>
-                
-              </section>
-              <section>
-                
-              </section>
-              <section>
-                
-              </section>
-              <section>
-                
-              </section>
-            </article>
-          </main>
-          <footer>
-            
-          </footer>
-    </body>
+            </section>
+            <section class="section section-quality">
+                <div class="two-column">
+                    <div>
+                        <h2 class="title quality__title">We will take care of everything, so you can get back to
+                            relaxing.</h2>
+                        <ul class="menu quality-list">
+                            <li class="quality-list__item">
+                                <button class="button button-expand" type="button">
+                                    <div class="arrow"></div>
+                                </button>
+                                <img class="quality__item__img full-img" src="images/pin_icon.svg" alt="pin_icon">
+                                <div class="quality__text">
+                                    <h3 class="title quality__text__title">Anti-loss technology</h3>
+                                    <p class="text expand-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </li>
+                            <li class="quality-list__item">
+                                <button class="button button-expand" type="button">
+                                    <div class="arrow"></div>
+                                </button>
+                                <img class="quality__item__img full-img" src="images/smile_face_icon.svg" alt="smile_face_icon">
+                                <div class="quality__text">
+                                    <h3 class="title quality__text__title">Exchange easily</h3>
+                                    <p class="text expand-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </li>
+                            <li class="quality-list__item">
+                                <button class="button button-expand" type="button">
+                                    <div class="arrow"></div>
+                                </button>
+                                <img class="quality__item__img full-img" src="images/email_icon.svg" alt="email_icon">
+                                <div class="quality__text">
+                                    <h3 class="title quality__text__title">Fully encrypted</h3>
+                                    <p class="text expand-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div> 
+                            </li>
+                            <li class="quality-list__item">
+                                <button class="button button-expand" type="button">
+                                    <div class="arrow"></div>
+                                </button>
+                                <img class="quality__item__img full-img" src="images/small_lightning_icon.svg" alt="small_lightning_icon">
+                                <div class="quality__text">
+                                    <h3 class="title quality__text__title">Plenty of options</h3>
+                                    <p class="text expand-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img class="quality__img full-img" src="images/descktop.svg" alt="descktop">
+                    </div>
+                </div>
+            </section>
+            <section>
+
+            </section>
+            <section>
+
+            </section>
+            <section>
+
+            </section>
+            <section>
+
+            </section>
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+
 </html>

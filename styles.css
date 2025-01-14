@@ -1,30 +1,56 @@
-body{
-    
-    font-family: 'Inter';
-}
-
-.logo {
-    padding: 10px;
-    margin-right: 10px;
-}
-
-header{
+.header {
     padding: 20px 0;
     margin-bottom: 100px;
     padding: 0 200px;
 }
-section{
+
+.section {
     margin-bottom: 150px;
     padding: 0 200px;
 }
-.navigation-list{
-    list-style: none;
-    padding: 0; 
-    display: flex;
-    
+
+.full-img {
+    max-width: 100%;
+    height: auto;
 }
 
-.navigation-link{
+.menu {
+    list-style: none;
+    padding: 0; 
+}
+
+.button {
+    border: 0px;
+    font-size: 21px;
+    font-family: 'Inter';
+    cursor: pointer;
+}
+
+.text {
+    font-family: 'Inter';
+}
+
+.title {
+    font-family: 'Fraunces';
+    color: #1F1F1F;
+}
+
+
+.header_logo {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list {
+    display: flex; 
+}
+
+.navigation__item__link {
     text-decoration: none;
     font-size: 21px;
     padding: 10px;
@@ -32,39 +58,30 @@ section{
     margin: 0 13px;
 }
 
-.header-buttons {
+.header__buttons {
     margin-left:auto;
     display: flex;
     align-items: center;
 }
 
-.sign-in-button{
+.button-sign-in{
     color: #0070A0;
-    border: 0px;
-    padding: 5px;
     background-color: white;
+    padding: 5px;
     margin-right: 30px; 
-    font-size: 21px;
-    font-family: 'Inter';
 }
 
-.demo-button{
+.button-demo{
     color: white;
-    padding: 15px 25px;
     background-color: #0070A0;
-    border: 0px;
-    font-size: 21px;
-    font-family: 'Inter';
+    padding: 15px 25px;
     width: 210px;
     font-weight: 300;
 }
 
-.navigation {
-    display: flex;
-    align-items: center;
-}
 
-.about-section{
+
+.section-about {
     display:grid;
     grid-template-columns: 1fr 1fr;
     gap: 150px;
@@ -73,17 +90,10 @@ section{
 }
 
 .about__title{
-    font-family: 'Fraunces';
-    color: #1F1F1F;
     font-size: 75px;
     font-weight: 500;
     margin: 0;
     width: 90%;
-}
-
-.about-img {
-    max-width: 100%;
-    height: auto;
 }
 
 .about__description{
@@ -93,15 +103,16 @@ section{
     line-height: 1.5;
 }
 
-.learn-more-button {
+.button-learn-more {
     color: #0070A0;
     text-decoration: none;
-    font-size: 21px;
     margin-left: 20px;
     padding: 10px 15px;
 }
 
-.truster-by-section p
+
+
+.section-truster-by__paragraph
 {
     color:#1F1F1F;
     font-size: 32px;
@@ -110,67 +121,135 @@ section{
 }
 
 .companies-list {
-    padding:0;
-    list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 100px;
-    
 }
 
-.company img {
+.companies-list__item__img {
     width: 120%
 }
 
-.benefits-list{
-    padding:0;
-    list-style: none;
+
+
+
+.benefits-list {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
 }
 
-.benefit-fast{
-    background-color: #FAEA73;
-}
-.benefit-money{
-     background-color: #CCEFF6;
-}
-.benefit-safe{
-    background-color: #F7CEDC;
-}
-
-.benefit-item {
+.benefit__item {
     padding: 40px;
 }
 
-.benefit-item h3 {
-    font-family: 'Fraunces';
+.benefit__item-fast {
+    background-color: #FAEA73;
+}
+.benefit__item-money {
+     background-color: #CCEFF6;
+}
+.benefit__item-safe {
+    background-color: #F7CEDC;
+}
+
+.benefits__title {
     font-size: 33px;
     font-weight: 400;
     margin: 0;
 }
 
-.benefit-item p {
+.benefits__description {
     font-size: 20px;
     line-height: 1.5;
 }
 
-.quality-section {
-    background-color: #F7F9FA;
+
+
+.section-quality {
+    background-color: #f7f9fa;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+.quality__title {
+    font-size: 49px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.quality-list{
+    width: 80%;
+}
+
+.quality-list__item {
+    border-bottom: 1px solid #C2CDD8;
+    border-top: 1px solid #C2CDD8;
+    display: grid;
+    grid-template-columns: 15% 75% 10%;
+    align-items: start;
+    margin-bottom: 5px;
+    padding: 20px 0;
+}
+
+.button-expand{
+    background-color: #f7f9fa;
+    padding: 10px;
+    background: url(images/arrow_expand.svg) no-repeat 50% 50%;
+    width: 30px;
+    height: 30px;    
+    order: 3;
+}
+
+.quality__img {
+    justify-self: center;
+    align-self: end;
 }
 
 
 
 
+.quality__text__title {
+    font-family: 'Fraunces';
+    font-size: 25px;
+    color: #1F1F1F;
+    font-weight: 400;
+    margin: 0;
+}
+
+.quality-item img {
+    justify-self: center;
+    padding-top: 10%;
+    align-self: start;
+}
+
+.expand-text {
+    font-size: 20px;
+    color: #1F1F1F;
+    line-height: 0;
+    color: transparent;
+    transition: line-height 0.5s, color 0.5s;
+    overflow: hidden;
+    margin: 0;
+}
+
+.button-expand.active ~ .quality__text .expand-text {
+    line-height: 1.5;
+    color: currentColor;
+}
 
 
-
-
+.hidden {
+    display: none;
+}
 
 @font-face {
     font-family: 'Fraunces';
