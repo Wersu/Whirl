@@ -32,6 +32,7 @@ body {
 
 .text {
     font-family: 'Inter';
+    color: #1F1F1F;
 }
 
 .title {
@@ -276,9 +277,6 @@ body {
 }
 
 
-
-
-
 .section-demo-offer{
     background-color: #0070A0;
     display: grid;
@@ -295,7 +293,6 @@ body {
     
 }
 
-
 .demo-offer__title {
     font-size: 50px;
     color: white;
@@ -304,9 +301,8 @@ body {
 .demo-offer__list__item {
     display: flex;
     align-items: center;
-    gap: 10px;
-    color: white;
-    font-size: 23px;
+    gap: 10px; 
+    font-size: 20px;
     font-weight: 300;
     margin: 10px 0;
 }
@@ -314,19 +310,54 @@ body {
 .demo-offer__paragraph {
     font-size: 23px;
     color: white;
-    font-weight: 300;line-height: 1.5;
+    font-weight: 300;
+    line-height: 1.5;
     width: 90%;
 }
 
 .demo-offer__list__item__text {
     margin: 0;
-    font-size: 20px;
+    color: white;
 }
 
 .demo-offer__list {
     margin-bottom: 50px;
 }
 
+
+
+
+
+
+
+.automation__title{
+    font-size: 50px;
+}
+
+.automation__paragraph {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 80px;
+    width: 50%;
+    font-weight: 400;
+}
+
+.automation__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5%;
+}
+
+.automation__list__item__title {
+    font-size: 30px;
+}
+
+.automation__list__item__description {
+    font-size: 20px;
+    line-height: 1.5;
+    width: 80%;
+    font-weight: 400;
+}
 
 
 
