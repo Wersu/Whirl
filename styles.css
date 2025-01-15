@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .header {
     padding: 20px 0;
     margin-bottom: 100px;
@@ -16,7 +20,7 @@
 
 .menu {
     list-style: none;
-    padding: 0; 
+    padding: 0;
 }
 
 .button {
@@ -33,6 +37,8 @@
 .title {
     font-family: 'Fraunces';
     color: #1F1F1F;
+    font-weight: 400;
+    margin: 0;
 }
 
 
@@ -47,7 +53,7 @@
 }
 
 .navigation-list {
-    display: flex; 
+    display: flex;
 }
 
 .navigation__item__link {
@@ -59,19 +65,19 @@
 }
 
 .header__buttons {
-    margin-left:auto;
+    margin-left: auto;
     display: flex;
     align-items: center;
 }
 
-.button-sign-in{
+.button-sign-in {
     color: #0070A0;
     background-color: white;
     padding: 5px;
-    margin-right: 30px; 
+    margin-right: 30px;
 }
 
-.button-demo{
+.button-demo {
     color: white;
     background-color: #0070A0;
     padding: 15px 25px;
@@ -82,21 +88,20 @@
 
 
 .section-about {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 150px;
     align-items: center;
 
 }
 
-.about__title{
+.about__title {
     font-size: 75px;
     font-weight: 500;
-    margin: 0;
     width: 90%;
 }
 
-.about__description{
+.about__description {
     width: 70%;
     font-size: 28px;
     font-weight: 400;
@@ -112,9 +117,8 @@
 
 
 
-.section-truster-by__paragraph
-{
-    color:#1F1F1F;
+.partners__paragraph {
+    color: #1F1F1F;
     font-size: 32px;
     justify-self: center;
     margin-bottom: 50px;
@@ -134,41 +138,41 @@
 
 
 
-.benefits-list {
+.slogans-list {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
 }
 
-.benefit__item {
+.slogans__item {
     padding: 40px;
 }
 
-.benefit__item-fast {
+.slogans__item-fast {
     background-color: #FAEA73;
 }
-.benefit__item-money {
-     background-color: #CCEFF6;
+
+.slogans__item-money {
+    background-color: #CCEFF6;
 }
-.benefit__item-safe {
+
+.slogans__item-safe {
     background-color: #F7CEDC;
 }
 
-.benefits__title {
+.slogans__title {
     font-size: 33px;
-    font-weight: 400;
-    margin: 0;
 }
 
-.benefits__description {
+.slogans__description {
     font-size: 20px;
     line-height: 1.5;
 }
 
 
 
-.section-quality {
+.section-features {
     background-color: #f7f9fa;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -180,17 +184,16 @@
     gap: 100px;
 }
 
-.quality__title {
+.features__title {
     font-size: 49px;
-    font-weight: 400;
     margin-bottom: 70px;
 }
 
-.quality-list{
+.features-list {
     width: 80%;
 }
 
-.quality-list__item {
+.features__item {
     border-bottom: 1px solid #C2CDD8;
     border-top: 1px solid #C2CDD8;
     display: grid;
@@ -200,32 +203,26 @@
     padding: 20px 0;
 }
 
-.button-expand{
+.button-expand {
     background-color: #f7f9fa;
     padding: 10px;
     background: url(images/arrow_expand.svg) no-repeat 50% 50%;
     width: 30px;
-    height: 30px;    
+    height: 30px;
     order: 3;
 }
 
-.quality__img {
+.features__img {
     justify-self: center;
     align-self: end;
+    min-width: 80%;
 }
 
-
-
-
-.quality__text__title {
-    font-family: 'Fraunces';
+.features__item__title {
     font-size: 25px;
-    color: #1F1F1F;
-    font-weight: 400;
-    margin: 0;
 }
 
-.quality-item img {
+.features__item__img {
     justify-self: center;
     padding-top: 10%;
     align-self: start;
@@ -241,10 +238,98 @@
     margin: 0;
 }
 
-.button-expand.active ~ .quality__text .expand-text {
+.button-expand.active~.features__text .expand-text {
     line-height: 1.5;
     color: currentColor;
 }
+
+
+
+.section-total {
+    display: grid;
+    grid-template-columns: 25% 60%;
+    gap: 5%
+}
+
+.total-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    padding-top: 10%;
+}
+
+.total__title {
+    font-size: 52px;
+}
+
+.total-list__item__title {
+    font-size: 30px;
+}
+
+.total-list__item__description {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.total-list__item:first-child {
+    padding-top: 8%;
+}
+
+
+
+
+
+.section-demo-offer{
+    background-color: #0070A0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 10%;
+    align-items: center;
+}
+
+.demo-offer__img {
+    justify-self: center;
+    min-width: 80%;
+    
+}
+
+
+.demo-offer__title {
+    font-size: 50px;
+    color: white;
+}
+
+.demo-offer__list__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 23px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.demo-offer__paragraph {
+    font-size: 23px;
+    color: white;
+    font-weight: 300;line-height: 1.5;
+    width: 90%;
+}
+
+.demo-offer__list__item__text {
+    margin: 0;
+    font-size: 20px;
+}
+
+.demo-offer__list {
+    margin-bottom: 50px;
+}
+
+
+
+
 
 
 .hidden {
