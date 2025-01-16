@@ -3,9 +3,8 @@ body {
 }
 
 .header {
-    padding: 20px 0;
+    padding: 20px 200px;
     margin-bottom: 100px;
-    padding: 0 200px;
 }
 
 .section {
@@ -76,6 +75,7 @@ body {
     background-color: white;
     padding: 5px;
     margin-right: 30px;
+    font-size: 21px;
 }
 
 .button-demo {
@@ -84,6 +84,7 @@ body {
     padding: 15px 25px;
     width: 210px;
     font-weight: 300;
+    font-size: 21px;
 }
 
 
@@ -357,11 +358,6 @@ body {
 
 
 
-
-
-
-
-
 .section-news {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -429,6 +425,57 @@ body {
 .card__img {
     width: 100%;
 }
+
+
+
+.get-started__content {
+    background-color: #E6F7FF;
+    padding: 70px;
+}
+
+.get-started__title {
+    font-size: 50px;
+}
+
+.get-started__paragraph {
+    width: 40%;
+    font-size: 23px;
+    padding: 20px 0;
+}
+
+.condition-list {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.condition__item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.condition__item__paragraph {
+    color: #626A72;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
