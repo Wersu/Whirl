@@ -47,7 +47,7 @@
 }
 
 
-.header_logo {
+.header__logo {
     padding: 10px;
     margin-right: 10px;
 }
@@ -57,7 +57,7 @@
     align-items: center;
 }
 
-.navigation-list {
+.navigation__list {
     display: flex;
 }
 
@@ -75,7 +75,7 @@
     align-items: center;
 }
 
-.button-sign-in {
+.button--sign-in {
     color: #0070A0;
     background-color: white;
     padding: 5px;
@@ -83,7 +83,7 @@
     font-size: 21px;
 }
 
-.button-demo {
+.button--demo {
     color: white;
     background-color: #0070A0;
     padding: 15px 25px;
@@ -94,7 +94,7 @@
 
 
 
-.section-about {
+.about {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 150px;
@@ -107,13 +107,13 @@
     width: 90%;
 }
 
-.about__description {
+.about__text {
     width: 70%;
     font-size: 28px;
     line-height: 1.5;
 }
 
-.button-learn-more {
+.button--learn-more {
     color: #0070A0;
     text-decoration: none;
     margin-left: 20px;
@@ -122,34 +122,34 @@
 
 
 
-.partners__description {
+.partners__text {
     font-size: 32px;
     justify-self: center;
     margin-bottom: 50px;
 }
 
-.companies-list {
+.partners__list {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 100px;
 }
 
-.company__img {
+.partners__img {
     width: 120%
 }
 
 
 
 
-.slogans-list {
+.slogans__list {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
 }
 
-.slogans-list__item {
+.slogans__item {
     padding: 40px;
 }
 
@@ -169,35 +169,35 @@
     font-size: 33px;
 }
 
-.slogans__description {
+.slogans__text {
     font-size: 20px;
     line-height: 1.5;
 }
 
 
 
-.section-take-care {
+.features {
     background-color: #f7f9fa;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.two-column {
+.features__inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 100px;
 }
 
-.take-care__title {
+.features__title {
     font-size: 49px;
     margin-bottom: 70px;
 }
 
-.take-care-list {
+.features__list {
     width: 80%;
 }
 
-.take-care-list__item {
+.features__item {
     border-bottom: 1px solid #C2CDD8;
     border-top: 1px solid #C2CDD8;
     display: grid;
@@ -207,7 +207,7 @@
     padding: 20px 0;
 }
 
-.button-expand {
+.button--expand {
     background-color: #f7f9fa;
     padding: 10px;
     background: url(images/arrow_expand.svg) no-repeat 50% 50%;
@@ -216,17 +216,17 @@
     order: 3;
 }
 
-.take-care__img {
+.features__img {
     justify-self: center;
     align-self: end;
     min-width: 80%;
 }
 
-.features__title {
+.item-features__title {
     font-size: 25px;
 }
 
-.features__icon {
+.item-features__icon {
     justify-self: center;
     padding-top: 10%;
     align-self: start;
@@ -242,7 +242,7 @@
     margin: 0;
 }
 
-.button-expand.active~.features__text .expand-text {
+.button--expand.active~.item-features__text .expand-text {
     line-height: 1.5;
     color: currentColor;
     margin: 10px 0;
@@ -250,13 +250,13 @@
 
 
 
-.section-total {
+.total {
     display: grid;
     grid-template-columns: 25% 60%;
     gap: 5%
 }
 
-.total-list {
+.total__list {
     display: flex;
     justify-content: space-between;
     gap: 10%;
@@ -271,18 +271,18 @@
     font-size: 30px;
 }
 
-.specification__description {
+.specification__text {
     line-height: 1.5;
     font-size: 18px;
 }
 
-.total-list__item:first-child {
+.total__item:first-child {
     padding-top: 8%;
 }
 
 
 
-.section-demo-offer{
+.demo-offer{
     background-color: #0070A0;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -303,7 +303,7 @@
     color: white;
 }
 
-.demo-offer__description {
+.demo-offer__text {
     font-size: 23px;
     color: white;
     font-weight: 300;
@@ -311,11 +311,11 @@
     width: 90%;
 }
 
-.demo-offer-list {
+.demo-offer__list {
     margin-bottom: 50px;
 }
 
-.demo-offer-list__item {
+.demo-offer__item {
     display: flex;
     align-items: center;
     gap: 10px; 
@@ -324,7 +324,7 @@
     margin: 10px 0;
 }
 
-.demo-offer__text {
+.item-demo-offer__text {
     margin: 0;
     color: white;
 }
@@ -335,15 +335,14 @@
     font-size: 50px;
 }
 
-.automation__description {
+.automation__text {
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 80px;
     width: 50%;
-    font-weight: 400;
 }
 
-.automation-list {
+.automation__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5%;
@@ -353,22 +352,21 @@
     font-size: 30px;
 }
 
-.task__description {
+.task__text {
     font-size: 20px;
     line-height: 1.5;
     width: 80%;
-    font-weight: 400;
 }
 
 
 
-.section-news {
+.news {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #F7F9FA;
 }
 
-.news-top {
+.news__top {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
@@ -379,19 +377,19 @@
     font-size: 50px;
 }
 
-.button-all-post {
+.button--all-post {
     color:#0070A0;
     font-size: 20px;
     padding: 5px 15px;
     text-decoration: none;
 }
 
-.news-list {
+.news__list {
     display: flex;
     justify-content: space-between;
 }
 
-.news-list__item {
+.news__item {
     background-color: white;
     width: 30%;
 }
@@ -441,53 +439,51 @@
     font-size: 50px;
 }
 
-.get-started__description {
+.get-started__text {
     width: 40%;
     font-size: 23px;
     padding: 20px 0;
 }
 
-.get-started-list{
+.get-started__list{
     display: flex;
     gap: 15px;
     align-items: center;
 }
 
-.get-started-list__item {
+.get-started__item {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.condition{
+.point__text{
     color: #626A72;
     font-size: 17px;
 }
 
 
 
-.footer-top {
+.footer__top {
     border-bottom: 1px solid #DEE5EB;
     display: flex;
     justify-content: space-between;
     padding-bottom: 100px;
 }
 
-.footer__logo__img {
+.logo-footer__img {
     margin-bottom: 30px;
 }
 
-.info__text {
+.top-footer__text{
     font-size: 16px;
     margin: 0;
-    
 }
 
 .footer__links {
     display: flex;
     justify-content: end;
     gap: 10%;
-    
 }
 
 .links {
@@ -503,7 +499,7 @@
     color: #626A72;
 }
 
-.subscribe__descriptions {
+.footer__text {
     font-size: 18px;
     line-height: 1.5;
 }
@@ -528,7 +524,7 @@
 }
 
 
-.footer-bottom {
+.footer__bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -539,7 +535,7 @@
     font-size: 17px;
 }
 
-.text-strong {
+.text--strong {
     color: #0070A0;
 }
 
