@@ -153,15 +153,15 @@
     padding: 40px;
 }
 
-.slogan-fast {
+.slogan--fast {
     background-color: #FAEA73;
 }
 
-.slogan-money {
+.slogan--money {
     background-color: #CCEFF6;
 }
 
-.slogan-safe {
+.slogan--safe {
     background-color: #F7CEDC;
 }
 
@@ -539,7 +539,7 @@
     color: #0070A0;
 }
 
-.footer__diffrent-links {
+.socials {
     display: flex;
     align-items: center;
     gap: 20px;
